@@ -9,10 +9,24 @@
     font-size: 12px;
     font-weight: 400;
     gap: 50px;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+a:hover{
+    background-color: #1F2938;
+    color: #F5F1E8;
 }
 
 .nav_1{
+    text-decoration: none;
     color: #1F2938;
+    
 }
 
 .header{
@@ -20,7 +34,7 @@
     padding-top: 10px;
     background-color: #F5F1E8;
     display: flex;
-    justify-content: left;
+    justify-content: space-between;
     align-items: center;
 }
 
