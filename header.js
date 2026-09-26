@@ -10,7 +10,7 @@ class SiteHeader extends HTMLElement {
                 <a href="contact.html">Contact</a>
             </ul>
         </nav>
-    </header>`;
+        </header>`;
     }
 }
 
