@@ -16,11 +16,17 @@ a{
     text-decoration: none;
     border-radius: 5px;
     padding: 5px;
+    color: #1F2938;
 }
 
 a:hover{
     background-color: #1F2938;
     color: #F5F1E8;
+}
+
+a[aria-current="actif"]{
+   background-color: #1F2938;
+    color: #F5F1E8; 
 }
 
 .nav_1{

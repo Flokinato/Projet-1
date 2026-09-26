@@ -11,6 +11,15 @@ class SiteHeader extends HTMLElement {
             </ul>
         </nav>
         </header>`;
+        const pageName = this.getAttribute("data-page");
+        const finderName = pageName + ".html";
+        console.log(finderName);
+        const activeLink = this.querySelector(`a[href="${finderName}"]`);
+        if(activeLink){
+            activeLink.setAttribute("aria-current", "actif");
+            console.log(activeLink);
+        }
+        
     }
 }
 
