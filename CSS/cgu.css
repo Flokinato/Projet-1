@@ -1,0 +1,38 @@
+.section_cgu{
+    background-color: var(--color-background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+.div_cgu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70rem;
+    background-color: var(--color-title);
+    padding: 10rem;
+    border-radius: 3rem;
+    box-shadow: 0.3rem 0.3rem 5rem var(--color-title);
+}
+
+.h1_cgu{
+    font-family: var(--font-title);
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+    font-weight: 900;
+    color: var(--color-background);
+    text-align: justify;
+}
+
+.para_cgu{
+    font-family: var(--font-text);
+    text-align: justify;
+    font-size: 0.9rem;
+    color: var(--color-background);
+    letter-spacing: 0.05rem;
+    line-height: 1.8rem;
+}

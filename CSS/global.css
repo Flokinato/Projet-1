@@ -1,8 +1,8 @@
 :root{
     --header-heigh: 3.2rem;
-    --color-title: #6d7a55;
+    --color-title: #1F2938;
     --color-background: #FCF9EA;
-    --color-backbutton: #DB9558;
+    --color-backbutton: #E8543A;
     --color-text: #A8BBA3;
     --font-title: "Bricolage Grotesque", sans-serif;
     --font-text: "Sora", sans-serif;
@@ -14,13 +14,6 @@
     box-sizing: border-box;
 }
 
-.ul1{
-    font-family: var(--font-text);
-    font-size: 0.8rem;
-    font-weight: 400;
-    gap: 3.5rem;
-    text-decoration: none;
-}
 
 .a_header{
     text-decoration: none;
@@ -42,7 +35,12 @@
 .nav_1{
     text-decoration: none;
     color: #1F2938;
-    margin-right: 1rem;    
+    margin-right: 1rem;   
+    font-family: var(--font-text);
+    font-size: 0.8rem;
+    font-weight: 400;
+    gap: 3.5rem;
+    text-decoration: none; 
 }
 
 .header{
@@ -91,4 +89,47 @@
     display: block;
     position: sticky;
     top: 0;
+}
+
+.footer{
+    height: 10rem;
+    background-color: var(--color-title);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.a1_footer{
+    color: var(--color-background);
+    font-family: var(--font-title);
+    font-size: 1.2rem;
+    font-weight: 900;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+.span_footer{
+    color: var(--color-backbutton);
+    font-family: var(--font-title);
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+
+.a_footer{
+    text-decoration: none;
+    color: var(--color-background);
+    font-family: var(--font-text);
+    font-weight: 500;
+    font-size: 0.75rem;
+}
+
+.a_footer:hover{
+    color: var(--color-backbutton);
+    text-decoration: underline;
+}
+
+.ul_footer{
+    list-style: none;
 }
