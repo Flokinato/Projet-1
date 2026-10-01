@@ -4,11 +4,9 @@ class SiteHeader extends HTMLElement {
         <header class="header">
         <a class="a1_header" href="index.html">Orion<span class="span_header">.</span></a>
         <nav class="nav_1">
-            <ul class="ul1">
-                <a class="a_header" href="index.html">Home</a>
-                <a class="a_header" href="projet.html">Projet</a>
-                <a class="a_header" href="contact.html">Contact</a>
-            </ul>
+            <a class="a_header" href="index.html">Home</a>
+            <a class="a_header" href="projet.html">Projet</a>
+            <a class="a_header" href="contact.html">Contact</a>
         </nav>
         </header>`;
         const pageName = this.getAttribute("data-page");
