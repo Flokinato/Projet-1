@@ -77,3 +77,10 @@
     display: flex;
     justify-content: space-between;
 }
+
+.button_card{
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
